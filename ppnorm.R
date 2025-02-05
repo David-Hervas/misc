@@ -9,5 +9,5 @@ ppnorm <- function(x, xbreaks=NULL, xlab=""){
   if(!is.null(xbreaks)){
     p <- p + scale_x_continuous(breaks=xbreaks)
   }
-  p
+  ggplotly(p)
 }
