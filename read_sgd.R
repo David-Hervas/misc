@@ -17,5 +17,3 @@ read_sgd <- function(file, k=8, ...){
   names(datos) <- sapply(xml_data$COLUMNS, function(x) x["Name"])
   datos
 }
-
-marcador <- read_sgd("W:\\datos 1p-GIB-2024-2025-B.sgd")
